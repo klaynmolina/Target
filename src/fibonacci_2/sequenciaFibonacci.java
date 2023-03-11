@@ -30,8 +30,7 @@ public class sequenciaFibonacci {
 		} else {
 			System.out.println("\no número " + n + " não pertence a sequência Fibonacci.");							
 		}
-		
-		
+				
 	}
 
 }

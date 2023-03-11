@@ -22,7 +22,7 @@ public class Metodos {
 		JSONParser jsonParser = new JSONParser();
 		try {
 
-			String caminho = "C:\\eclipse_IDE_Workspace\\ws-java\\Target\\src\\faturamento\\diario\\dados.json";
+			String caminho = "C:\\eclipse_IDE_Workspace\\ws-java\\Target\\src\\faturamento\\diario_3\\dados.json";
 
 			JSONArray dadosArquivo = (JSONArray) jsonParser
 					.parse(new InputStreamReader(new FileInputStream(caminho), "UTF-8"));
@@ -47,7 +47,7 @@ public class Metodos {
 		JSONParser jsonParser = new JSONParser();
 		try {
 
-			String caminho = "C:\\eclipse_IDE_Workspace\\ws-java\\Target\\src\\faturamento\\diario\\dados.json";
+			String caminho = "C:\\eclipse_IDE_Workspace\\ws-java\\Target\\src\\faturamento\\diario_3\\dados.json";
 
 			JSONArray dadosArquivo = (JSONArray) jsonParser
 					.parse(new InputStreamReader(new FileInputStream(caminho), "UTF-8"));
