@@ -19,18 +19,19 @@ public class sequenciaFibonacci {
 		List<Integer> lista = new ArrayList<>();
 		lista.add(0);
 		lista.add(1);
-
-		for (i = 0; i < n; i++) {
-			proximoValor = lista.get(i) + lista.get(i + 1);
-			lista.add(proximoValor);
+		
+		for (i = 0; proximoValor <= n; i++) {
+			proximoValor = lista.get(i) + lista.get(i + 1);			
+			lista.add(proximoValor);		
 		}
-
-		if (n != i) {
-			System.out.println("\no número " + n + " não pertence a sequência Fibonacci.");
-		} else {
+				
+		if (lista.contains(n) == true) {
 			System.out.println("\no número " + n + " pertence a sequência Fibonacci.");
+		} else {
+			System.out.println("\no número " + n + " não pertence a sequência Fibonacci.");							
 		}
-
+		
+		
 	}
 
 }
